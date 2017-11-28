@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Nutonomy.Auto0AutoRest</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Nutonomy</Authors>
+    <Description>AutoRest compatible TokenProvider</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) nuTonomy. All rights reserved.</Copyright>
+    <PackageTags>oauth auth0 token autorest</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.10" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.1.5" />
+  </ItemGroup>
+</Project>

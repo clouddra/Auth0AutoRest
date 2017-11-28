@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0AutoRest", "src\Auth0AutoRest.csproj", "{5C11E450-C726-4974-BF82-3D2B2CD5685C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0AutoRestTest", "test\Auth0AutoRestTest.csproj", "{948A3BD0-B186-44FE-9AF3-8DDEBD42E8CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C11E450-C726-4974-BF82-3D2B2CD5685C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C11E450-C726-4974-BF82-3D2B2CD5685C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C11E450-C726-4974-BF82-3D2B2CD5685C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C11E450-C726-4974-BF82-3D2B2CD5685C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948A3BD0-B186-44FE-9AF3-8DDEBD42E8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948A3BD0-B186-44FE-9AF3-8DDEBD42E8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948A3BD0-B186-44FE-9AF3-8DDEBD42E8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948A3BD0-B186-44FE-9AF3-8DDEBD42E8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
