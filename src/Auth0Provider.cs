@@ -1,12 +1,10 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 using Flurl.Http;
 using Microsoft.Rest;
-using Newtonsoft.Json;
 
 namespace Auth0AutoRest
 {
