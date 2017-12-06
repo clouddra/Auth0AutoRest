@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard1.6</TargetFrameworks>
     <PackageId>Nutonomy.Auth0AutoRest</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Nutonomy</Authors>
     <Description>AutoRest compatible TokenProvider</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) nuTonomy. All rights reserved.</Copyright>
     <PackageTags>oauth auth0 token autorest</PackageTags>
-    <ProjectUrl>https://github.com/clouddra/Auth0AutoRest</ProjectUrl>
+    <PackageProjectUrl>https://github.com/clouddra/Auth0AutoRest</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="2.0.1" />
