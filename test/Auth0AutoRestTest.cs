@@ -27,6 +27,7 @@ namespace Auth0AutoRestTest
                 ClientId = ClientId,
                 ClientSecret = ClientSecret,
                 Audience = Audience,
+                Auth0Endpoint = "https://test.auth0.com/oauth/token"
             });
 
             var rand = new RNGCryptoServiceProvider();

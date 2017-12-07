@@ -14,7 +14,6 @@ namespace Auth0AutoRest
         private readonly Auth0TokenRequest _auth0TokenRequest;
         private Auth0TokenResponse _cachedToken;
         private DateTime _expiry;
-        private const string Auth0Endpoint = "https://nutonomy.auth0.com/oauth/token";
 
         public Auth0Provider(Auth0TokenRequest auth0TokenRequest) : this(auth0TokenRequest, TimeSpan.FromMinutes(10))
         {
@@ -30,7 +29,7 @@ namespace Auth0AutoRest
         {
             if (_cachedToken == null || DateTime.UtcNow + TokenTimeout > _expiry)
             {
-                var tokenResponse = await Auth0Endpoint
+                var tokenResponse = await _auth0TokenRequest.Auth0Endpoint
                     .PostJsonAsync(_auth0TokenRequest)
                     .ReceiveJson<Auth0TokenResponse>();
 

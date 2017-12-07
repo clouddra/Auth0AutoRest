@@ -20,5 +20,8 @@ namespace Auth0AutoRest
         [Required]
         [JsonProperty("grant_type")]
         public string GrantType { get; set; } = "client_credentials";
+
+        [JsonIgnore]
+        public string Auth0Endpoint { get; set; }
     }
 }
