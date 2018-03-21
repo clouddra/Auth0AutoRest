@@ -31,6 +31,7 @@ namespace Auth0AutoRest
         {
             if (_isAuthRequired)
             {
+                // only renew token if it is nearing expiry
                 if (_cachedToken == null || DateTime.UtcNow + TokenTimeout > _expiry)
                 {
                     var tokenResponse = await _auth0TokenRequest.Auth0Endpoint
