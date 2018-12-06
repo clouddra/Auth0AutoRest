@@ -67,7 +67,10 @@ namespace Auth0AutoRest
                         .PostJsonAsync(_auth0TokenRequest)
                         .ReceiveJson<Auth0TokenResponse>();
                     var jsonString = JsonConvert.SerializeObject(tokenResponse);
-                    File.WriteAllText(_cachedTokenResponse, jsonString);
+                    if (Directory.Exists(@"/tmp"))
+                    {
+                        File.WriteAllText(_cachedTokenResponse, jsonString);
+                    }
                     _expiry = GetExpiry(tokenResponse);
                     _cachedToken = tokenResponse;
                 }
