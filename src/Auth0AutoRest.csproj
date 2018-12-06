@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard1.6</TargetFrameworks>
     <PackageId>Nutonomy.Auth0AutoRest</PackageId>
-    <PackageVersion>1.2.0</PackageVersion>
+    <PackageVersion>1.3.0</PackageVersion>
     <Authors>Nutonomy</Authors>
     <Description>AutoRest compatible TokenProvider</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
